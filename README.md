@@ -225,29 +225,34 @@ ___
 
 ___
 
-## 使用的📦软件包
+## 使用的依赖包📦
 
-| 已使用的软件包列表 |
-| --- |
-| @emailjs/浏览器 |
-| @next/第三方 |
-| Axios |
-| 洛蒂反应 |
-| 下一个 |
+
+[](https://github.com/said7388/developer-portfolio#packages-used-package)
+
+| Used Package List |
+| :-: |
+| @emailjs/browser |
+| @next/third-parties |
+| axios |
+| lottie-react |
+| next |
 | nodemailer |
-| 反应 |
-| 反应 DOM |
+| react |
+| react-dom |
 | react-fast-marquee |
 | react-google-recaptcha |
-| react 图标 |
+| react-icons |
 | react-toastify |
-| 锋利 |
-| 嘲讽 |
-| 尾风 CSS |
+| sharp |
+| sass |
+| tailwindcss |
 
 ___
 
 ## 常见问题：
+
+[](https://github.com/said7388/developer-portfolio#faq)
 
 1.  For those facing the issue of "`next` is not recognized as an internal or external command, operable program or batch file."
 
