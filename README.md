@@ -1,142 +1,131 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
+___
 
----
+## 开发人员产品组合
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+#### 您是否正在努力创建一个专业的投资组合网站？不用再观望了！您可以立即使用 Developer Portfolio 模板并创建您自己的个性化投资组合！我的网站设计为用户友好且易于定制，非常适合开发人员和自由职业者。
 
----
+___
 
-# Developer Portfolio
+## 演示 🎥
 
-#### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+[![](https://github.com/luckyu2/developer-portfolio/raw/main/public/image/screen.png)](https://github.com/luckyu2/developer-portfolio/blob/main/public/image/screen.png)
 
----
+___
 
-# Demo :movie_camera:
+## 目录 📜
 
-![](./public/image/screen.png)
+-   [部分](https://github.com/luckyu2/developer-portfolio#sections-bookmark)
+-   [演示](https://github.com/luckyu2/developer-portfolio#demo-movie_camera)
+-   [安装](https://github.com/luckyu2/developer-portfolio#installation-arrow_down)
+-   [开始](https://github.com/luckyu2/developer-portfolio#getting-started-dart)
+-   [用法](https://github.com/luckyu2/developer-portfolio#usage-joystick)
+-   [部署](https://github.com/luckyu2/developer-portfolio#deployment-rocket)
+-   [教程](https://github.com/luckyu2/developer-portfolio#tutorials-wrench)
+    -   [Gmail 应用密码设置](https://github.com/luckyu2/developer-portfolio#gmail-app-password-setup)
+    -   [创建 Telegram 机器人](https://github.com/luckyu2/developer-portfolio#create-a-telegram-bot)
+    -   [从 dev.to 获取博客](https://github.com/luckyu2/developer-portfolio#fetching-blog-from-devto)
+-   [使用的软件包](https://github.com/luckyu2/developer-portfolio#packages-used-package)
 
-## View live preview [here](https://abusaid.netlify.app/).
+___
 
----
+## 部分 🔖
 
-## Table of Contents :scroll:
+-   英雄部分
+-   关于我
+-   经验
+-   技能
+-   项目
+-   教育
+-   博客
+-   接触
 
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
+___
 
----
+## 安装 ⬇️
 
-# Sections :bookmark:
+### 您需要下载 Git 和 Node 才能运行此项目
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+-   [Git](https://git-scm.com/downloads)
+-   [节点](https://nodejs.org/en/download/)
 
----
+#### 确保您的计算机上装有最新版本的 Git 和 Node。
 
-# Installation :arrow_down:
-
-### You will need to download Git and Node to run this project
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
-
-#### Make sure you have the latest version of both Git and Node on your computer.
-
-```bash
+```shell
 node --version
 git --version
 ```
 
-## <br />
+## 开始 🎯
 
-# Getting Started :dart:
+### Fork 和 Clone 存储库
 
-### Fork and Clone the repo
+要 Fork 仓库，请单击页面右上角的 fork 按钮。分叉存储库后，打开您的终端并执行以下命令
 
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```bash
+```shell
 git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
 
 cd developer-portfolio
 ```
 
-### Install packages from the root directory
+### 从根目录安装软件包
 
-```bash
+```shell
 npm install
 # or
 yarn install
 ```
 
-Then, run the development server:
+然后，运行开发服务器：
 
-```bash
+```shell
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+使用浏览器打开 [http://localhost:3000](http://localhost:3000/) 以查看结果。
 
----
+___
 
-### Running with Docker Compose
+### 使用 Docker Compose 运行
 
-1. **Build Docker Image and Run Container**:
-    ```bash
+1.  **构建 Docker 镜像并运行容器**：
+    
+    ```shell
     docker-compose up --build
     ```
+    
+2.  **访问应用程序**： 在 Web 浏览器中访问 [http://localhost:3000](http://localhost:3000/) 以查看正在运行的应用程序。
+    
 
-2. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
+___
 
----
+### 构建 Docker 镜像
 
-### Building the Docker Image
-
-1. **Build the Docker Image using Dockerfile.dev**:
-
-    ```bash
+1.  **使用 Dockerfile.dev 构建 Docker 镜像**：
+    
+    ```shell
     docker build -t nextjs-app -f Dockerfile.dev .
     ```
-
-2. **Running the Docker Container**:
-
-    ```bash
+    
+2.  **运行 Docker 容器**：
+    
+    ```shell
     docker run -p 3000:3000 nextjs-app
     ```
+    
+3.  **访问应用程序**： 在 Web 浏览器中访问 [http://localhost:3000](http://localhost:3000/) 以查看正在运行的应用程序。
+    
 
-3. **Access the Application**:
-    Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the running application.
+___
 
----
+## Usage 🕹️
 
-# Usage :joystick:
-
-Please create a new `.env` file from `.env.example` file.
+请从 `.env.example` file 创建新`.env`文件。
 
 Eg:
 
-```env
+```dotenv
 NEXT_PUBLIC_GTM =
 NEXT_PUBLIC_APP_URL =
 TELEGRAM_BOT_TOKEN =
@@ -149,7 +138,7 @@ EMAIL_ADDRESS =
 
 Eg:
 
-```javascript
+```js
 export const personalData = {
   name: "ABU SAID",
   profile: "/profile.png",
@@ -169,106 +158,100 @@ export const personalData = {
 };
 ```
 
-`devUsername` is used for fetching blog posts from `dev.to`.
+`devUsername`用于从 `dev.to`中获取博客文章。
 
----
+___
 
-# Deployment :rocket:
+## Deployment 🚀
 
-Deploying the app to platforms like Vercel or Netlify is quick and easy.
+将应用程序部署到 Vercel 或 Netlify 等平台既快速又简单。
 
 ## Deploying to Vercel:
 
-1. **Sign up or log in** to [Vercel](https://vercel.com/).
-2. Once logged in, click on **"New Project"**.
-3. Select your **GitHub repo** (the one that contains your forked project) and click **Import**.
-4. Configure your environment variables in the Vercel dashboard by adding each key from your `.env` file.
-   - E.g., `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_APP_URL`, `TELEGRAM_BOT_TOKEN`, etc.
-5. Click on **Deploy**. Vercel will automatically detect your Next.js app and build it.
-6. Once the deployment is complete, you can visit your live website!
+1.  **Sign up or log in** to [Vercel](https://vercel.com/).
+2.  登录后，单击 **“New Project”。**
+3.  选择您的 **GitHub 存储库**（包含您的分叉项目的存储库），然后单击 **Import（导入**）。
+4.  通过添加`.env`文件中的每个键，在 Vercel 控制面板中配置环境变量。
+    -   E.g., `NEXT_PUBLIC_GTM`, `NEXT_PUBLIC_APP_URL`, `TELEGRAM_BOT_TOKEN`, etc.
+5.  单击 **Deploy**。Vercel 将自动检测您的 Next.js 应用程序并构建它。
+6.  部署完成后，您可以访问您的实时网站！
 
-### Updating After Deployment
+### 部署后更新
 
-Whenever you push changes to your GitHub repo, Vercel will automatically redeploy the app, keeping your portfolio up-to-date.
+每当您将更改推送到 GitHub 存储库时，Vercel 都会自动重新部署应用程序，使您的投资组合保持最新状态。
 
-## Deploying to Netlify:
+## 部署到 Netlify：
 
-1. **Sign up or log in** to [Netlify](https://www.netlify.com/).
-2. In the **Netlify Dashboard**, click **"New site from Git"**.
-3. Connect your **GitHub** account and select your repo.
-4. Configure your environment variables by going to **Site Settings > Build & Deploy > Environment** and adding keys from your `.env` file.
-5. Click **Deploy Site**. Netlify will build and deploy your portfolio.
+1.  **注册或登录** [Netlify](https://www.netlify.com/)。
+2.  在 **Netlify 仪表板**中，单击**“从 Git 新建站点”。**
+3.  连接 **GitHub** 帐户并选择存储库。
+4.  通过转到**站点设置>构建和部署>环境**并从您的`.env`文件中添加密钥来配置您的环境变量。
+5.  单击 **Deploy Site**。Netlify 将构建和部署您的投资组合。
 
----
+___
 
-# Tutorials :wrench:
+## 教程 🔧
 
-## Gmail App Password Setup
+## Gmail 应用密码设置
 
-1. **Log in to your Google Account** at [https://myaccount.google.com/](https://myaccount.google.com/).
-2. Navigate to **Security** from the left sidebar.
-3. Scroll down to the **"Signing in to Google"** section and make sure **2-Step Verification** is turned ON.
-4. Once 2-Step Verification is enabled, you'll see an option for **App Passwords**.
-5. Click on **App Passwords**. You may need to enter your Google account password again.
-6. In the **Select app** dropdown, choose "Mail", and for **Select device**, choose "Other (Custom name)" and name it appropriately (e.g., "Portfolio").
-7. Click **Generate**. A 16-character app password will be displayed. Save this password for later use in your environment variables (e.g., `GMAIL_PASSKEY`).
+1.  在 [https://myaccount.google.com/](https://myaccount.google.com/)上**登录您的 Google 帐户**。
+2.  导航到 **安全** 从左侧边栏。
+3.  向下滚动到**“登录 Google”**部分，并确保两**步验证**已开启。
+4.  启用两步验证后，您将看到**一个 App Passwords （应用密码）** 选项。
+5.  点击 **App Passwords**。您可能需要再次输入您的 Google 帐户密码。
+6.  在**“选择应用程序**”下拉列表中，选择“邮件”，对于**“选择设备**”，选择“其他（自定义名称）”并为其命名（例如，“投资组合”）。
+7.  单击 **Generate**。将显示一个 16 个字符的应用程序密码。保存此密码以供以后在环境变量中使用（例如 `GMAIL_PASSKEY`）。
 
-## Create a Telegram Bot
+## 创建 Telegram 机器人
 
-1. **Open Telegram** and search for the user **@BotFather**.
-2. Start a chat with BotFather and use the `/newbot` command to create a new bot.
-3. Choose a name for your bot.
-4. Set a unique username for your bot (must end with `bot`, e.g., `PortfolioAssistantBot`).
-5. Once your bot is created, BotFather will send you a **Token**. Save this token, as you will need it for your environment variables (e.g., `TELEGRAM_BOT_TOKEN`).
-6. To get your chat ID:
-   - Open your bot in Telegram and send it a message.
-   - Visit the following URL in your browser, replacing `BOT_TOKEN` with your actual bot token:  
-     `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-   - Look for the `chat` object in the response, which contains your **chat ID** (you can use this value for `TELEGRAM_CHAT_ID`).
+1.  **打开 Telegram** 并搜索用户**@BotFather**。
+2.  开始与 BotFather 聊天，并使用该`/newbot`命令创建新的机器人。
+3.  为您的自动程序选择一个名称。
+4.  为您的机器人设置一个唯一的用户名（必须以 结尾，`bot`例如 `PortfolioAssistantBot`， ）。
+5.  创建机器人后，BotFather 将向您发送一个 **Token**。保存此令牌，因为您的环境变量（例如 `TELEGRAM_BOT_TOKEN`）将需要它。
+6.  要获取您的聊天 ID：
+    -   在 Telegram 中打开您的机器人并向其发送消息。
+    -   访问以下 URL，替换为`BOT_TOKEN`您的实际机器人令牌：  
+        `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
+    -   在响应中查找包含您的**聊天 ID** `chat` 的对象（您可以将此值用于 `TELEGRAM_CHAT_ID`）。
 
-## Fetching Blog from dev.to
+## 从 dev.to 获取博客
 
-To display your blog posts from dev.to on the portfolio:
+要在作品集中显示 dev.to 的博客文章，请执行以下操作：
 
-1. Set your `devUsername` in the `utils/data.js` file to your dev.to username.
-2. The application will automatically fetch your latest blog posts and display them in the **BLOG** section.
-3. Ensure your blogs are publicly visible on dev.to, and the application will fetch them using the dev.to API.
+1.  将 your `devUsername` in the `utils/data.js` file 设置为 dev.to 用户名。
+2.  该应用程序将自动获取您的最新博客文章并将其显示在 **BLOG** 部分。
+3.  确保您的博客在 dev.to 上公开可见，并且应用程序将使用 dev.to API 获取它们。
 
----
+___
 
-# Packages Used :package:
+## 使用的📦软件包
 
-|   Used Package List    |
-| :--------------------: |
-|    @emailjs/browser    |
-|  @next/third-parties   |
-|         axios          |
-|      lottie-react      |
-|          next          |
-|       nodemailer       |
-|         react          |
-|       react-dom        |
-|   react-fast-marquee   |
+| 已使用的软件包列表 |
+| --- |
+| @emailjs/浏览器 |
+| @next/第三方 |
+| Axios |
+| 洛蒂反应 |
+| 下一个 |
+| nodemailer |
+| 反应 |
+| 反应 DOM |
+| react-fast-marquee |
 | react-google-recaptcha |
-|      react-icons       |
-|     react-toastify     |
-|         sharp          |
-|          sass          |
-|      tailwindcss       |
+| react 图标 |
+| react-toastify |
+| 锋利 |
+| 嘲讽 |
+| 尾风 CSS |
 
----
+___
 
-# FAQ:
+## 常见问题：
 
-1. For those facing the issue of "`next` is not recognized as an internal or external command, operable program or batch file."
+1.  For those facing the issue of "`next` is not recognized as an internal or external command, operable program or batch file."
 
 Run the following command:
-
-```bash
-
-npm install -g next
-
-```
 
 This installs Next.js globally
 
